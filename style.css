@@ -1,0 +1,67 @@
+
+h1, h2 {
+  font-family: "Sedan", serif;
+  font-weight: bold;
+  color: #BB8493;
+}
+
+.deco-out {
+  text-decoration: none;
+}
+
+i {
+  color: #BB8493;
+  font-size: 50px;
+}
+
+.card {
+  background-color: #F0EBE3;
+  text-align: center;
+  padding: 70px;
+  margin: 10px;
+  box-shadow: 10px 5px 5px rgb(171, 169, 169);
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.btn-pink {
+  background-color: #BB8493;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 700px;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-height: 1000px) {
+  .container {
+    height: 90%;
+  }
+}
